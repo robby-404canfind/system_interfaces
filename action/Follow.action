@@ -1,0 +1,18 @@
+# Goal
+string request_id
+string mission_id
+string target_class "person"
+int32 target_id -1
+float64 target_distance_m 2.0
+float64 max_time_sec 60.0
+---
+# Result
+bool success
+string message
+string final_state
+---
+# Feedback
+string state
+float64 elapsed_sec
+float64 current_distance_m
+string target_status

@@ -1,0 +1,18 @@
+# Goal
+string request_id
+string mission_id
+string[] watch_classes
+int32[] watch_ids
+float64 duration_sec 30.0
+float64 sweep_deg 360.0
+---
+# Result
+bool success
+string message
+string objects_json
+---
+# Feedback
+string state
+string detail
+float64 elapsed_sec
+int32 objects_found

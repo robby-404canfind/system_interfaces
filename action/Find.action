@@ -1,0 +1,16 @@
+# Goal
+string request_id
+string mission_id
+string target_class
+float64 timeout_sec 30.0
+float64 sweep_deg 360.0
+---
+# Result
+bool success
+string message
+string object_json
+---
+# Feedback
+string state
+string detail
+float64 elapsed_sec

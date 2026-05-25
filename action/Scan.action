@@ -1,8 +1,6 @@
 # Goal
 string request_id
 string mission_id
-string[] watch_classes
-int32[] watch_ids
 float64 duration_sec 30.0
 float64 sweep_deg 360.0
 ---

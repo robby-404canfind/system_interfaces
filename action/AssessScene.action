@@ -1,0 +1,15 @@
+# Goal
+string request_id
+string mission_id
+string query
+float64 timeout_sec 30.0
+---
+# Result
+bool success
+string message
+string assessment_json
+---
+# Feedback
+string state
+string detail
+float64 elapsed_sec

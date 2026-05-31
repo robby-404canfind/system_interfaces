@@ -8,6 +8,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Find.action"
   "action/Scan.action"
   "action/Follow.action"
+  "action/AssessScene.action"
+  "action/ResolveTarget.action"
 )
 
 ament_package()
